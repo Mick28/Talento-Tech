@@ -1,0 +1,56 @@
+body {
+  background-color: #f8f9fa; /* Un gris clarito */
+}
+.card {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-added {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: black;
+}
+
+h2 {
+  margin-top: 20px;
+}
+.ribbon {
+  width: 100%;
+  background: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 0; /* top: 15px; */
+  right: -0;  /* right: -35px; */
+  transform: rotate(45deg) translate(50%, 100%);  /*transform: rotate(45deg); */
+  transform-origin: top right;  /* <- Configuración ribbon */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+  z-index: 1;
+  pointer-events: none;
+}

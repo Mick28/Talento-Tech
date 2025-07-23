@@ -1,0 +1,33 @@
+/* Espacio en la parte superior para que el contenido no quede tapado por el header sticky */
+body {
+  padding-top: 70px;
+}
+
+/* Estilo para el listón promocional en las tarjetas */
+.promo-ribbon {
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  background: red;
+  color: white;
+  padding: 5px 40px;
+  transform: rotate(-45deg);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.footer {
+  height: 80px; /* Ajusta la altura según necesidad */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para el login */
+.container {
+  max-width: 500px;
+}
+
